@@ -1,5 +1,7 @@
 # xndbogdan/laravel-sameday
 
+[![Total Downloads](https://img.shields.io/packagist/dt/xndbogdan/laravel-sameday.svg)](https://packagist.org/packages/xndbogdan/statamic-bard-text-color)
+
 This package was created due to a need for a simple integration with laravel.
 It was developed for Laravel 8 but could possibly be used with lower versions, as it doesn't have too many dependencies.
 
