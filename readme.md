@@ -1,9 +1,17 @@
 # xndbogdan/laravel-sameday
 
-[![Total Downloads](https://img.shields.io/packagist/dt/xndbogdan/laravel-sameday.svg)](https://packagist.org/packages/xndbogdan/statamic-bard-text-color)
+[![Total Downloads](https://img.shields.io/packagist/dt/xndbogdan/laravel-sameday.svg)](https://packagist.org/packages/xndbogdan/laravel-sameday)
 
 This package was created due to a need for a simple integration with laravel.
 It was developed for Laravel 8 but could possibly be used with lower versions, as it doesn't have too many dependencies.
+
+## Installation
+Just run `composer require xndbogdan/laravel-sameday`.
+
+## Note
+Keep in mind that this package also has a helper, so if you would rather call this library statically, you can do so like this:
+
+    \Sameday::login(env('SAMEDAY_AUTH_USER'), env('SAMEDAY_AUTH_PASSWORD'), env('SAMEDAY_HOST_URL'));
 
 ## Implementation example
 
