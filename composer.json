@@ -1,0 +1,38 @@
+{
+    "name": "xndbogdan/laravel-sameday",
+    "description": "Basic Sameday Api implementation for use with Laravel",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "sameday",
+        "api"
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "xndbogdan\\Sameday\\SamedayServiceProvider"
+            ],
+            "aliases": {
+                "Sameday": "xndbogdan\\Sameday\\Helpers\\Sameday"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "xndbogdan\\Sameday\\": "src/Sameday/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bogdan Mihai",
+            "email": "bogdan.mosteanu@hey.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "illuminate/contracts": "5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/database": "5.8.* || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "5.8.* || ^6.0 || ^7.0 || ^8.0"
+    }
+}
