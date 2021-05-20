@@ -2,6 +2,7 @@
     "name": "xndbogdan/laravel-sameday",
     "description": "Basic Sameday Api implementation for use with Laravel",
     "type": "library",
+    "license": "MIT",
     "keywords": [
         "laravel",
         "sameday",
